@@ -1,0 +1,15 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <form action="signupform">
+            <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+
+            email<input type="email" name="t1">
+            password<input type="password" name="t2">
+            <button>submit</button><br>
+        </form>
+    </body>
+</html>

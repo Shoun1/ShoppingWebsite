@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart</title>
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <ul>
+        {% for item in cart_items %}
+        <li>Product ID: {{ item.id }} | Quantity: {{ item.quantity }} | Price: {{ item.price }}</li>
+        <td>
+            <tr>
+                <a href="{% url 'remove' item.id %}"><button type="Button">-</button></a></tr>
+            {{item.quantity}}
+            <tr>
+                <a href="{% url 'add' item.id %}"><button type="Button">+</button></a></tr>
+            </td>
+            {% endfor %}
+    </ul>
+    <p>Total Price: {{ total }}</p>
+    <a href="{% url 'checkout' %}"><button type="Button">Checkout</button></a></tr>
+    <tr>
+        <td>{{id}}</td>
+        <td>
+            {% for product in unshopped_items  %}
+                {{product.name}}
+                <a href="{% url 'add-to-cartfirst' product.id %}">
+                <button type="button">ADD</button>
+                </a>
+                {% endfor %}
+        </td>
+    </tr>
+    <a href="/">Continue Shopping</a>
+</body>
+</html>

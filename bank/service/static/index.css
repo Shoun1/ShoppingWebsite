@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: Ariel,sans-serif;
+}
+.navbar{
+    background-color: red;
+    padding: 10px 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    margin: 0 20px;
+}
+.navbar a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}

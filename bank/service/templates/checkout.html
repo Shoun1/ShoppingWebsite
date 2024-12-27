@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>OrderSummary</title>
+</head>
+<body>
+    <h1>OrderSummary</h1>
+    <ul>
+        {% for item in CartItems %}
+        <li>{{item.name}} {{item.price}}</li>
+        {% endfor %}
+        <h2>BillDetails</h2>
+        <h3>To Pay {{total}}</h3>
+        <form action="{% url 'clear' %}" method="GET"></a>
+        <button type="submit">ClearCart</button>
+        <button type="Button">Pay</button></a>
+    </ul>
+</body>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart</title>
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <ul>
+            {% for item in cart_items %}
+            {{item}}
+            <li>Product ID: {{ item.id }} | Quantity: {{ item.quantity }} | Price: {{ item.price }}</li>
+            <td>
+            <tr>
+                <a href="{% url 'remove' item.id %}"><button type="Button">-</button></a></tr>
+            {{item.quantity}}
+            <tr><a href="{% url 'add' item.id %}"><button type="Button">+</button></tr></a>
+            </td>
+            {% endfor %}
+    </ul>
+    <p>Total Price: {{ total }}</p>
+    <a href="/">Continue Shopping</a>
+</body>
+</html>

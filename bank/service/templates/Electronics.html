@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'elec.css' %}">
+    </head>
+    <body>
+        <Head>Electronic products</Head>
+        <img src="{% static 'images.jpg' %}">
+        <table>
+            <tr>
+                <th>Product Name</th>
+                <th>Action</th>
+            </tr>
+            {% for item in Product %}
+            <tr>
+                <td>{{item.name}}</td>
+                <td>
+                    <a href="add-to-cartfirst/{{item.id}}">
+                    <button type="button">ADD</button>
+                </a>
+                </td>
+        </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>
