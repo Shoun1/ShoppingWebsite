@@ -9,28 +9,6 @@ def index(request):
 def insert(request):
     return render(request,'insert.html')
 
-'''def signin(request):
-    #if request.method == "POST":
-        #email = request.POST.get('email')
-        #password = request.POST.get('password')
-
-        email = request.get('t1')
-        password = request.get('t2')
-
-        try:
-            #query the databse
-            u = person.objects.get(email=email)
-            if u.password == password :
-                return redirect('../index')
-           #else:
-                # If the password is incorrect, return an error message
-               #return render(request, 'insert.html', {'error': 'Invalid password'})
-        except person.DoesNotExist:
-            return render(request,'insert.html',{'error':'User not dfounf'})
-
-    #else:
-     #   return redirect('../insert')'''
-
 def signupform(request):
         u=person()
         u.email = request.GET['t1']
