@@ -9,7 +9,6 @@ This system was developed through a structured SDLC approach:
 - Implementation: Developed Python-based modules with SQLite integration for persistent storage and transactional workflows.
 - Testing & Validation: Verified CRUD operations, checkout integrity, and dashboard accuracy across edge cases.
 - Deployment & Documentation: Packaged for local execution with schema initialization and CLI-based interaction.
-- 
 Key Features
 | SDLC Phase | Feature Description | 
 | Design | Encapsulated shopping cart using Python dictionaries for dynamic data handling | 
