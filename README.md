@@ -48,6 +48,7 @@ Project Structure
 Getting Started
 - Clone the repository:
 git clone https://github.com/your-username/modular-cart-system.git
+
 cd modular-cart-system
 - Initialize the SQLite database:
 sqlite3 db/cart.db < db/schema.sql
