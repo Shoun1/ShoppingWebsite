@@ -1,6 +1,7 @@
-Modular Shopping Cart System with Admin Dashboard & SQLite Integration
+Title: Modular Shopping Cart Ecommerce application logic with transactional checkout and secure storage of customer purchase details.
 
-A backend-driven shopping cart system architected with Python and SQLite, designed to reflect software development lifecycle (SDLC) best practices. This project demonstrates modular design, transactional integrity, and real-time data visibility—ideal for showcasing consultative impact and scalable architecture in SDE and software consulting roles.
+A backend-driven shopping cart system architected with core Python and secure SQLite database storage for the purpose of redesigning the cart system with dynamic updates in Django-powered robust and scalable backend design and development.
+This project demonstrates modular design, transactional integrity, and real-time data visibility—ideal for showcasing consultative impact and scalable architecture in SDE and software consulting roles.
 
 Project Overview
 This system was developed through a structured SDLC approach:
@@ -25,32 +26,3 @@ Tech Stack
 | Architecture | Modular, loosely coupled | 
 | Interface | CLI-based dashboard | 
 
-
-Project Structure
-├── cart/
-│   ├── cart.py
-│   └── utils.py
-├── users/
-│   ├── user_manager.py
-│   └── auth.py
-├── products/
-│   ├── catalog.py
-│   └── inventory.py
-├── dashboard/
-│   └── admin_view.py
-├── checkout/
-│   └── transaction.py
-├── db/
-│   └── schema.sql
-└── main.py
-
-
-Getting Started
-- Clone the repository:
-git clone https://github.com/your-username/modular-cart-system.git
-
-cd modular-cart-system
-- Initialize the SQLite database:
-sqlite3 db/cart.db < db/schema.sql
-- Run the main application:
-python main.py
