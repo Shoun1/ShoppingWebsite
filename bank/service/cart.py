@@ -6,16 +6,20 @@ class Cart:
              cart = self.session['cart'] = {}
         self.cart = cart
 
+    #clear the cart
     def clear(self):
         self.session['cart']={}
         self.save()
 
+    #get the total price for the purchase
     def get_total_price(self):
         return sum(float(item['price']) * int(item['quantity']) for item in self.cart.values())
+
 
     def save(self):
         self.session.modified = True
 
+    #add an item to the cart
     def add(self,id,product):
         product_id = str(product.id)
         if product_id not in self.cart.keys():
@@ -25,6 +29,7 @@ class Cart:
             self.cart[product_id]['quantity'] = self.cart[product_id]['quantity'] + 1
         self.save()
 
+    #fetch items in cart
     def get_items(self):
         items=[]
         for product_id,details in self.cart.items():
@@ -35,6 +40,7 @@ class Cart:
             })
         return items
         
+    #remove an item from cart
     def remove(self,id,product):
         product_id = str(product.id)
         #print(product.id)
