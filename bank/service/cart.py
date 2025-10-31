@@ -6,7 +6,6 @@ class Cart:
              cart = self.session['cart'] = {}
         self.cart = cart
 
-    #clear the cart
     def clear(self):
         self.session['cart']={}
         self.save()
