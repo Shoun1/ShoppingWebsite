@@ -1,5 +1,4 @@
-Title: Modular Shopping Cart Ecommerce application logic with transactional checkout and secure storage of customer purchase details.
-
+Title: Ecommerce-inspired Shopping Cart web application
 A backend-driven shopping cart system architected with core Python and secure SQLite database storage for the purpose of redesigning the cart system with dynamic updates in Django-powered robust and scalable backend design and development.
 This project demonstrates modular design, transactional integrity, and real-time data visibility—ideal for showcasing consultative impact and scalable architecture in SDE and software consulting roles.
 
