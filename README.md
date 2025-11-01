@@ -1,46 +1,11 @@
 Title: Ecommerce-inspired Shopping Cart web application
-A backend-driven shopping cart system architected with core Python and secure SQLite database storage for the purpose of redesigning the cart system with dynamic updates in Django-powered robust and scalable backend design and development.
-This project demonstrates modular design, transactional integrity, and real-time data visibility—ideal for showcasing consultative impact and scalable architecture in SDE and software consulting roles.
+Project : A full stack web-development project developed with core Python resembling the server-side logic of any ecommerce websites that use shopping carts as a protoype website.
 
-Project Overview
+Tech stack: Python,Django,HTML,CSS
 
-This system was developed using a structured Software Development Life Cycle (SDLC) approach:
-
-Requirements Analysis – Identified core workflows such as shopping cart operations, user management, and order tracking.
-
-System Design – Architected encapsulated modules with clear separation of concerns and reusable components.
-
-Implementation – Developed Django-based modules with SQLite integration for persistent storage and transactional workflows.
-
-Testing & Validation – Verified CRUD operations, checkout integrity, and dashboard accuracy across multiple edge cases.
-
-Features
-1. Encapsulated & Reusable Shopping Cart
-
-Designed a Cart class encapsulating cart operations (add, remove, update).
-
-Maintains session-based state, ensuring prices and quantities remain consistent across checkout.
-
-2. Modular Database Design with Django ORM
-
-Implemented Django ORM models (e.g., ItemsPurchased) to represent cart and order entities.
-
-Ensures a layered architecture where schema details remain abstracted behind class definitions.
-
-Promotes clean object-relational mapping and database integrity.
-Key Features
-| SDLC Phase | Feature Description | 
-| Design | Encapsulated shopping cart using Python dictionaries for dynamic data handling | 
-| Architecture | Modular system for user management, product catalog, and purchase history | 
-| Visualization | Admin dashboard with real-time order tracking and advanced filtering | 
-| Transaction | Checkout workflow with SQLite-backed integrity and rollback safety | 
-| Optimization | Analytical problem-solving to streamline CRUD and retrieval workflows | 
-
-
-Tech Stack
-| Layer | Technology | 
-| Language | Python 3.x | 
-| Database | SQLite | 
-| Architecture | Modular, loosely coupled | 
-| Interface | CLI-based dashboard | 
+Role/Key Features for the Django app are as follows:
+i)session-driven modular e-shopping cart - built for customers to purchase products online shopping for electronic items such as television,refrigerator,etc.
+ii)a transactional checkout page- reflecting the items purchased by a customer displaying the product prices and their total billing price
+iii)a pythonic prototype tested on the development server by repeated debugging for errors such as following best software development practices such as clean,efficient and structured logic
+iv)Achieved high cohesion and easy debugging by encapsulating all cart operations within a modular Django Cart class, leveraging the MVT architecture and reusable Python methods
 
