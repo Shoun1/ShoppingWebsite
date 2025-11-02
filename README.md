@@ -1,8 +1,8 @@
-Title: Ecommerce-inspired Shopping Cart web application  
+##Title: Ecommerce-inspired Shopping Cart web application  
 
-Project : A full stack web-development project developed with core Python resembling the server-side logic of any ecommerce websites that use shopping carts as a protoype website.
+#Project : A full stack web-development project developed with core Python resembling the server-side logic of any ecommerce websites that use shopping carts as a protoype website.
 
-Tech stack: Python,Django,HTML,CSS  
+##Tech stack: Python,Django,HTML,CSS  
 
 Role/Key Features for the Django app are as follows:  
 
