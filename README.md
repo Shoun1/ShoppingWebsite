@@ -10,8 +10,8 @@ i)session-driven modular e-shopping cart - built for customers to purchase produ
 ii)a transactional checkout page- reflecting the items purchased by a customer displaying the product prices and their total billing price  
 iii)Developed a pythonic prototype tested on the development server by debugging for common errors such as 'TemplateDoesNotExist','MultiValueDictKeyError' and following best software development practices such as clean,efficient and structured logic  
 iv)Achieved high cohesion and easy debugging by encapsulating all cart operations within a modular Django Cart class, leveraging the MVT architecture and reusable Python methods  
-v)Designed a responsive user-interface with buttons, proper styling and layout for the navigation bar, integrating JPEG images for visual appeal and enhancing user experience
-vi)custom implementation of a sessiondetails page where the current user’s email and cart contents are displayed allowing ease of accessibility/transition from both cart_updates page and checkout page ensuring clean and optimized data flow providing data-accessibility facility.
+v)Designed a responsive user-interface with buttons, proper styling and layout for the navigation bar, integrating JPEG images for visual appeal and enhancing user experience  
+vi)custom implementation of a sessiondetails page where the current user’s email and cart contents are displayed allowing ease of accessibility/transition from both cart_updates page and checkout page ensuring clean and optimized data flow providing data-accessibility facility.  
 vii)custom implementation of an admin page displaying email ids and purchases made by customers serving a role-based functionality presenting a layer of purchase summaries on the frontend for data-visibility purposes.
  
 
